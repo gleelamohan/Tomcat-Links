@@ -1,0 +1,300 @@
+[
+  {
+      "Paris":  [
+    {
+        "Id": 1,
+        "Name": "DEV",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+       "Id": 2,
+        "Name": "INT",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+       "Id": 3,
+        "Name": "TEST",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+       "Id": 4,
+        "Name": "HOMOL",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 5,
+        "Name": "QUAL",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },{
+        "Id": 6,
+        "Name": "NRO",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 7,
+        "Name": "NRN",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 8,
+        "Name": "PERFORMANCE",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 9,
+        "Name": "RELEASE",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 10,
+        "Name": "REPORTING SERVER",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 11,
+        "Name": "PROD-BIS",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 12,
+        "Name": "PRODUCTION",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    }],
+    "Bangalore":  [{
+        "Id": 1,
+        "Name": "NRO",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+       "Id": 2,
+        "Name": "DEV",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+       "Id": 3,
+        "Name": "INT",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+       "Id": 4,
+        "Name": "TEST",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 5,
+        "Name": "QUAL",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 6,
+        "Name": "NRO",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 7,
+        "Name": "NRN",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 8,
+        "Name": "BDD",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 9,
+        "Name": "REPORTING SERVICE",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 10,
+        "Name": "REPORTING SERVER TOM99",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 11,
+        "Name": "DEV01",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    }],
+     "General":  [{
+        "Id": 1,
+        "Name": "Teamcity",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+       "Id": 2,
+        "Name": "Jira 6",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+       "Id": 3,
+        "Name": "SG Github",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+       "Id": 4,
+        "Name": "My Pyramid",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 5,
+        "Name": "Deployit",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 6,
+        "Name": "Quality Center(QC)",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 7,
+        "Name": "Synapse",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 8,
+        "Name": "Product Backlog",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    {
+        "Id": 9,
+        "Name": "Self Service",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 10,
+        "Name": "EZ Web",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 11,
+        "Name": "Jive",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 12,
+        "Name": "Email - DL",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 13,
+        "Name": "Safe",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 14,
+        "Name": "SGH",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 15,
+        "Name": "AD Group",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    
+     {
+        "Id": 16,
+        "Name": "API Doc",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 17,
+        "Name": "SG Cloud",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 18,
+        "Name": "COC",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 19,
+        "Name": "Nexus",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 20,
+        "Name": "Assert Mgmt",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 21,
+        "Name": "API Catalog",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 22,
+        "Name": "DBA",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 23,
+        "Name": "DBA-Hotline",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 24,
+        "Name": "UAT Follow up",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+     {
+        "Id": 25,
+        "Name": "Tomcat Prod - Kibana",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    },
+    
+     {
+        "Id": 26,
+        "Name": "Collateral Prod - Kibana",
+        "URL": "#",
+        "Information": "srvcldtctu002"
+    }]
+  }
+]

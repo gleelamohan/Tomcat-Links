@@ -10,14 +10,17 @@
 								<li class="h-seperate"></li>
 								<li><a href="#"> TOMCAT REFERENCES </a></li>
                                 <li class="active"><a href="#">Home</a></li>
+                                
 						</ul>
-						
+						<ul class="nav navbar-nav navbar-right tooltip-area" style="margin-right: 0px">
+                            <li><input type="text" style="margin-top:8px" aria-controls="DataTables_Table_0" class="form-control" id="DataTables_Table_0_filter_input" placeholder="Search..." [(ngModel)]='listFilter'></li>
+                            </ul>
 				</div>
 </div>
 
             
         <div id="main" style="margin-left: 0px">
-            <div id="content">
+            <div id="content" style="height: 100%">
                 <div class="row">
                      <div class="col-md-4">
                          <section class="panel">                            
@@ -26,8 +29,8 @@
                                     <h5  style="text-transform:uppercase"><strong>General</strong> Details</h5>                                   
                                     
                                 </div>
-                                <div class="input-icon"><i class="ico fa fa-search"></i><input type="text" aria-controls="DataTables_Table_0" class="form-control" id="DataTables_Table_0_filter_input" placeholder="Search..." [(ngModel)]='listFilter'></div>
-                                <div id="scrolldiv" class="table-responsive" style="margin-top:25px;height: 395px;overflow: auto;">
+                                <!--<div class="input-icon"><i class="ico fa fa-search"></i><input type="text" aria-controls="DataTables_Table_0" class="form-control" id="DataTables_Table_0_filter_input" placeholder="Search..." [(ngModel)]='listFilter'></div>-->
+                                <div id="scrolldiv" class="table-responsive" style="margin-top:25px;height: 500px;overflow: auto;">
                                     <table class="table table-striped table-hover" data-provide="data-table">
                                         <thead>
                                             <tr>
@@ -39,7 +42,7 @@
                                              <tr *ngFor='let env of general | detailFilter:listFilter'>
                                                 <td style="text-align: left;">
                                                     <div style="margin-left: 15px;">
-                                                        <a [href]="env.URL">{{env.Name | uppercase}}</a>
+                                                        <a [href]="env.URL" target="_blank">{{env.Name | uppercase}}</a>
                                                         </div></td>
                                                         <td>{{env.Information | uppercase}}</td>
 
@@ -59,8 +62,8 @@
                                     <h5  style="text-transform:uppercase"><strong>Paris Environment</strong> Details</h5>                                   
                                     
                                 </div>
-                                <div class="input-icon"><i class="ico fa fa-search"></i><input type="text" aria-controls="DataTables_Table_0" class="form-control" id="DataTables_Table_0_filter_input" placeholder="Search..."  [(ngModel)]='parFilter'></div>
-                                <div id="scrolldiv" class="table-responsive" style="margin-top:25px;height: 395px;overflow: auto;">
+                                <!--<div class="input-icon"><i class="ico fa fa-search"></i><input type="text" aria-controls="DataTables_Table_0" class="form-control" id="DataTables_Table_0_filter_input" placeholder="Search..."  [(ngModel)]='parFilter'></div>-->
+                                <div id="scrolldiv" class="table-responsive" style="margin-top:25px;height: 500px;overflow: auto;">
                                     <table class="table table-striped table-hover" data-provide="data-table">
                                         <thead>
                                             <tr>
@@ -69,10 +72,10 @@
                                             </tr>
                                         </thead>
                                        <tbody align="center" >
-                                            <tr *ngFor='let env of parisenv | detailFilter:parFilter'>
+                                            <tr *ngFor='let env of parisenv | detailFilter:listFilter'>
                                                 <td style="text-align: left;">
                                                     <div style="margin-left: 15px;">
-                                                        <a [href]="env.URL">{{env.Name}}</a>
+                                                        <a [href]="env.URL"  target="_blank">{{env.Name}}</a>
                                                         </div></td>
                                                         <td>{{env.Information}}</td>
 
@@ -93,8 +96,8 @@
                                     <h5  style="text-transform:uppercase"><strong>Bangalore Environment</strong> Details</h5>                                   
                                     
                                 </div>
-                                <div class="input-icon"><i class="ico fa fa-search"></i><input type="text" aria-controls="DataTables_Table_0" class="form-control" id="DataTables_Table_0_filter_input" placeholder="Search..."  [(ngModel)]='banFilter'></div>
-                                <div id="scrolldiv" class="table-responsive" style="margin-top:25px;height: 395px;overflow: auto;">
+                                <!--<div class="input-icon"><i class="ico fa fa-search"></i><input type="text" aria-controls="DataTables_Table_0" class="form-control" id="DataTables_Table_0_filter_input" placeholder="Search..."  [(ngModel)]='banFilter'></div>-->
+                                <div id="scrolldiv" class="table-responsive" style="margin-top:25px;height: 500px;overflow: auto;">
                                     <table class="table table-striped table-hover" data-provide="data-table">
                                         <thead>
                                             <tr>
@@ -103,10 +106,10 @@
                                             </tr>
                                         </thead>
                                          <tbody align="center" >
-                                              <tr *ngFor='let env of blrenvironments | detailFilter:banFilter'>
+                                              <tr *ngFor='let env of blrenvironments | detailFilter:listFilter'>
                                                 <td style="text-align: left;">
                                                     <div style="margin-left: 15px;">
-                                                        <a [href]="env.URL">{{env.Name}}</a>
+                                                        <a [href]="env.URL"  target="_blank">{{env.Name}}</a>
                                                         </div></td>
                                                         <td>{{env.Information}}</td>
 
@@ -122,6 +125,11 @@
                 </div>    
                
         </div>
-<footer id="site-footer">
+        <footer id="site-footer">
 					<section>© Copyright 2017, By TOMCAT</section>
 				</footer>
+        </div>
+
+          
+
+      
